@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المول</title>
+    <meta name="description" content="المول - بيع أجهزة إلكترونية مستعملة بالتقسيط وخدمات التصليح بالتقسيط.">
+    <meta name="keywords" content="المول, أجهزة إلكترونية, تقسيط, تصليح">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            text-align: center;
+            padding: 2em;
+            background-color: white;
+            margin: 2em auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        .services, .contact {
+            padding: 2em;
+            background-color: white;
+            margin: 2em auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>المول</h1>
+    </header>
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+    <div id="home" class="main-content">
+        <h2>اشتري المستعمل بالتقسيط</h2>
+        <p>تصفح أفضل الأجهزة الإلكترونية المستعملة لدينا بنظام التقسيط المرن، بالإضافة إلى خدمات التصليح بالتقسيط.</p>
+    </div>
+    <div id="services" class="services">
+        <h2>خدماتنا</h2>
+        <ul>
+            <li>بيع أجهزة إلكترونية مستعملة بالتقسيط</li>
+            <li>خدمة تصليح الأجهزة بالتقسيط</li>
+            <li>خدمة ما بعد البيع والدعم الفني</li>
+        </ul>
+    </div>
+    <div id="contact" class="contact">
+        <h2>اتصل بنا</h2>
+        <p>العنوان: شارع المثال، المدينة، الدولة</p>
+        <p>الهاتف: 123456789</p>
+        <p>البريد الإلكتروني: info@almall.com</p>
+    </div>
+    <footer>
+        <p>© 2024 المول. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
